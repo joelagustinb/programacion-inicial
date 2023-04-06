@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <h1>Nike <img src="img/logonike.png" alt="logo de nike" width="20"></h1>
+        <h2>Los mejores sneakers</h2>
+        <nav>
+            <ul>
+                <li type="none"><a href="index.html">Inicio</a></li>
+                <li type="none"><a href="pages/nosotros.html">Nosotros</a></li>
+                <li type="none"><a href="pages/novedades.html">Novedades</a></li>
+                <li type="none"><a href="pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <form action="#" method="post">
+                <div>
+                    <label for="textNombre">Ingrese su Nombre</label>
+                    <input type="text" name="textNombre" id="textNombre">
+                </div>
+                <div>
+                    <label for="textApellido">Ingrese su Apellido</label>
+                    <input type="text" name="textApellido" id="textApellido">
+                </div>
+                <div>
+                    <label for="correo">Ingrese su Correo Electronico</label>
+                    <input type="email" name="correo" id="correo" placeholder="Ej: joelagustinbarbona@gmail.com" required>
+                </div>
+                <div>
+                    <label for="telCelular">Ingrese su Numero de Telefono</label>
+                    <input type="tel" name="telCelular" id="telCelular" placeholder="Ej: +54 9 xxxx xxxx" required>
+                </div>
+                <div>
+                    <label for="textMensaje">Mensaje</label>
+                    <textarea name="textMensaje" id="textMensaje" cols="20" rows="5"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" name="checkboxNovedades" id="checkboxNovedades">
+                    <label for="checkboxNovedades">¿Desea recibir novedades?</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="checkboxCondiciones" id="checkboxCondiciones">
+                    <label for="checkboxCondiciones">Acepta las condiciones</label>
+                </div>
+                <div>
+                    <button type="submit" name="btnEnviar" id="btnEnviar">Enviar</button>
+                    <button type="reset" name="btnBorrar" id="btnBorrar">Limpiar</button>
+                </div>
+                
+            </form>
+        </div>
+        <section>
+            <div>
+                <p>Ultimo Video de Youtube</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_Z-rUsIV5vY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
